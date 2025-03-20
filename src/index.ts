@@ -57,7 +57,7 @@ app.get('/professors/:professorId/proctorships', async (c) => {
   return c.json(students)
 })
 
-
+//
 app.patch('/students/:studentId', async (c) => {
   const { studentId } = c.req.param()
   const data = await c.req.json()
